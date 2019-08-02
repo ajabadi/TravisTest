@@ -13,8 +13,8 @@ env:
 
 notifications:
   email:
-    recipients:
-      - ajalalabadi@unimelb.edu.au
+    - ajalalabadi@unimelb.edu.au
+    
     on_success: always
     on_failure: always
 
