@@ -1,0 +1,21 @@
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+
+language: R
+r_github_packages: ajabadi/mixOmics.data
+cache: packages
+git:
+ depth: 9999999
+env:
+  global:
+    - R_CHECK_ARGS="--no-build-vignettes --no-manual --timings"
+    - R_CHECK_TESTS="FALSE"
+    # - R_CHECK_ARGS="--no-build-vignettes --no-manual --no-examples --timings"
+
+notifications:
+  email:
+    # recipients:
+    #   - ajalalabadi@unimelb.edu.au
+    on_success: always
+    on_failure: always
+
+  slack: lecaolab:Sjzz66mnqBJcmUnH9gVn4CBO
