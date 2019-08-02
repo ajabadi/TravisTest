@@ -1,7 +1,7 @@
 
 #' Foo
 #'
-#' @param bar bars
+#' @param bar bars of some foo
 #'
 #' @return stuff
 #' @export
