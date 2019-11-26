@@ -5,10 +5,10 @@
 #'
 #' @return stuff
 #' @export
-#'
+#' @import ggplot2
 #' @examples
 #' foo(3)
 
 foo <- function(bar=5){
-  bar
+  ggplot(data.frame(a=1:4, b=paste0("x-", 1:4)))
 }

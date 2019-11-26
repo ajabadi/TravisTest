@@ -4,10 +4,10 @@
 \alias{foo}
 \title{Foo}
 \usage{
-foo(bar)
+foo(bar = 5)
 }
 \arguments{
-\item{bar}{bars}
+\item{bar}{bars of some foo}
 }
 \value{
 stuff
