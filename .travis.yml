@@ -5,6 +5,11 @@ r_github_packages: ajabadi/mixOmics.data
 cache: packages
 git:
  depth: 9999999
+
+branches:
+  only:
+    - feature
+
 env:
   global:
     - R_CHECK_ARGS="--no-build-vignettes --no-manual --timings"
