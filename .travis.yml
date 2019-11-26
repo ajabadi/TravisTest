@@ -19,7 +19,7 @@ env:
 notifications:
   email:
     recepients:
-    - ajalalabadi@unimelb.edu.au
+    - al.jal.abadi@gmail.com
     
     on_success: always
     on_failure: always
