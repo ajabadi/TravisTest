@@ -18,6 +18,7 @@ env:
 
 notifications:
   email:
+    recepients:
     - ajalalabadi@unimelb.edu.au
     
     on_success: always
