@@ -9,6 +9,6 @@
 #' @examples
 #' foo(3)
 
-foo <- function(bar){
+foo <- function(bar=5){
   bar
 }
